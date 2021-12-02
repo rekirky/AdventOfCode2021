@@ -12,7 +12,7 @@ I will be primarily focussing on Python this year but will attempt other languag
 ### The Front (1-12)
 |Day|Status|Day|Status
 |--|--|--|--|
-|1|Not Started|7|Not Started
+|1|Complete|7|Not Started
 |2|Not Started|8|Not Started
 |3|Not Started|9|Not Started
 |4|Not Started|10|Not Started
