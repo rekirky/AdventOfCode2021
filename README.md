@@ -13,7 +13,7 @@ I will be primarily focussing on Python this year but will attempt other languag
 |Day|Status|Day|Status
 |--|--|--|--|
 |1|Complete|7|Not Started
-|2|Not Started|8|Not Started
+|2|Complete|8|Not Started
 |3|Not Started|9|Not Started
 |4|Not Started|10|Not Started
 |5|Not Started|11|Not Started
