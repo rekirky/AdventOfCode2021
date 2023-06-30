@@ -1,6 +1,7 @@
 # Advent of Code
 # Day 4
 
+<<<<<<< Updated upstream
 # Import functions
 import numpy as np
 from commonfunctions import process_input
@@ -75,3 +76,48 @@ letter = 68
 
 
 
+=======
+def process_input(file):
+    clean = []
+    with open(file) as f:
+        input = f.readlines()
+    for i in input:
+        clean.append(i.strip())
+    return(clean)
+
+def card_generator(bingo_cards,bingo_numbers):
+    for i in range(0,round(len(bingo_cards)),6):
+        card = bingo_cards[i:i+5]
+        card = card_checker(card,bingo_numbers)
+                
+        
+        
+def card_checker(card,bingo_numbers):
+    updated_card = []
+    for i in bingo_numbers:
+        check = i
+        for x in card:
+            card = list(map(int,x.split()))
+            for y in card:
+                if int(y) == check:
+                    updated_card.append(-1)
+                else:
+                    updated_card.append(y)
+        print(card)
+        print(updated_card)
+        
+                    
+
+
+file = "input-day4test.txt"
+#file = "input-day4.txt"
+input = process_input(file)
+bingo_numbers = list(map(int,input[0].split(",")))
+bingo_cards = input[2:]
+
+card_generator(bingo_cards,bingo_numbers)
+
+
+#for i in bingo_numbers:
+ #   card_generator(i)
+>>>>>>> Stashed changes
